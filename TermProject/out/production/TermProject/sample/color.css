@@ -1,0 +1,12 @@
+.root
+{
+    -fx-background-image: url("cover.png");
+}
+.button
+{
+    -fx-background-color: cornflowerblue;
+}
+.text-area
+{
+    -fx-background-color: cornflowerblue;
+}

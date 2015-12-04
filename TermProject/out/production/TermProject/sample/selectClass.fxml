@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.selectClassController">
+   <children>
+      <Text fill="#1bcd48" layoutX="198.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Select Your Class">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <ButtonBar layoutX="168.0" layoutY="136.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#ssc" text="SSC" textFill="#06d355">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+          <Button mnemonicParsing="false" onAction="#hsc" text="HSC" textFill="#10eb59">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
