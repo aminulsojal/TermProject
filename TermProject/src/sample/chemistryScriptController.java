@@ -32,7 +32,7 @@ public class chemistryScriptController implements  Runnable  {
     private MyEventHandler myEventHandler;
    // private Text quesNum;
 
-
+  public void  timeSet()
     {
 
         t = new Thread(this);
