@@ -56,7 +56,7 @@ public class chemistryScriptController implements  Runnable  {
                         s = l + " : " + m;
                         //System.out.println(i + " : " + j);
                     }
-//                        timeCounter.setText("");
+//                       timeCounter.setText("");
                     timeCounter.setText(s);
 
                 }
@@ -85,14 +85,20 @@ public class chemistryScriptController implements  Runnable  {
       myEventHandler = new MyEventHandler();
 
       RadioButton [] buttons = new RadioButton[160];
-     // ToggleGroup [] group = new ToggleGroup[40];
+      ToggleGroup [] group = new ToggleGroup[40];
 
       int k=-1;
       for (int i = 0; i < buttons.length; i++) {
           buttons[i] = new RadioButton();
+
           buttons[i].setOnAction(myEventHandler);
-          if(i%4==0) k++;
-         // buttons[i].setToggleGroup(group[i]);
+          if(i%4==0){
+              k++;
+              group[k] = new ToggleGroup();
+          }
+
+//          buttons[i].setToggleGroup(group[i]);
+          //buttons[i].setOnAction(myEventHandler);
 
 
 
@@ -101,7 +107,7 @@ public class chemistryScriptController implements  Runnable  {
           if (j == 1) {
               String num=""+i/4;
 
-
+              buttons[i].setToggleGroup(group[k]);
               buttons[i].setText("a");
               buttons[i].setLayoutX(0 + (i / 40) * 200);
               buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
@@ -110,7 +116,7 @@ public class chemistryScriptController implements  Runnable  {
           }
          else if(j==2)
           {
-
+              buttons[i].setToggleGroup(group[k]);
               buttons[i].setText("b");
               buttons[i].setLayoutX(40 + (i / 40) * 200);
               buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
@@ -118,20 +124,21 @@ public class chemistryScriptController implements  Runnable  {
           }
           else if(j==3)
           {
-
+              buttons[i].setToggleGroup(group[k]);
               buttons[i].setText("c");
               buttons[i].setLayoutX(80 + (i / 40) * 200);
               buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
 
           }
-          else
+          else if(j == 0)
           {
-
+              buttons[i].setToggleGroup(group[k]);
               buttons[i].setText("d");
               buttons[i].setLayoutX(120 + (i / 40) * 200);
               buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
 
           }
+
       }
   }
 
