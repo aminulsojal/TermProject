@@ -11,6 +11,7 @@ import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.RadioButton;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -30,9 +31,8 @@ public class chemistryScriptController implements  Runnable  {
     @FXML
     private AnchorPane answerScript;
     private MyEventHandler myEventHandler;
-   // private Text quesNum;
 
-  public void  timeSet()
+  public void timeSet()
     {
 
         t = new Thread(this);
@@ -86,33 +86,30 @@ public class chemistryScriptController implements  Runnable  {
 
       RadioButton [] buttons = new RadioButton[160];
       ToggleGroup [] group = new ToggleGroup[40];
-
+      Text [] text = new Text[40];
       int k=-1;
       for (int i = 0; i < buttons.length; i++) {
           buttons[i] = new RadioButton();
-
+          buttons[i].setTextFill(Color.BLUE);
           buttons[i].setOnAction(myEventHandler);
           if(i%4==0){
               k++;
+              int p = k + 1;
               group[k] = new ToggleGroup();
+              String s1 = "";
+              if(k < 9)  s1 = "0" + p;
+              else  s1 = "" + p;
+              text[k] = new Text(-15 + (i / 40) * 200,15+(i / 4 - (i / 40) * 10) * 20,s1);
+              text[k].setFill(Color.BLACK);
+              answerScript.getChildren().add(text[k]);
           }
-
-//          buttons[i].setToggleGroup(group[i]);
-          //buttons[i].setOnAction(myEventHandler);
-
-
-
           answerScript.getChildren().add(buttons[i]);
           int j=i%4;
           if (j == 1) {
-              String num=""+i/4;
-
               buttons[i].setToggleGroup(group[k]);
               buttons[i].setText("a");
               buttons[i].setLayoutX(0 + (i / 40) * 200);
               buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
-
-
           }
          else if(j==2)
           {
@@ -120,7 +117,6 @@ public class chemistryScriptController implements  Runnable  {
               buttons[i].setText("b");
               buttons[i].setLayoutX(40 + (i / 40) * 200);
               buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
-
           }
           else if(j==3)
           {

@@ -86,7 +86,7 @@ public class logInMain extends Application {
         chemistryScriptController loginController1 = loader.getController();
         loginController1.setChemistryQuestionScript();
         loginController1.setAnswerScript();
-        loginController1.timeSet();
+       loginController1.timeSet();
         loginController1.setMain(this);
 
 
