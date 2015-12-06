@@ -1,19 +1,19 @@
 package sample;
 
-/**
- * Created by User on 11/28/2015.
- */
 import java.io.File;
 import java.util.Scanner;
 
-
-public class readFile {
+/**
+ * Created by User on 12/5/2015.
+ */
+public class readFileForUsersData {
     private Scanner a;
-   // private ArrayList<String> chemistryQues = new ArrayList<>();
-    private String messageBox = "";
+    // private ArrayList<String> chemistryQues = new ArrayList<>();
+    private String messageBox[] = new String[100];
+    int i = 0;
     public  void openFile(){
         try {
-            a = new Scanner(new File("chemistryQuestion.txt"));
+            a = new Scanner(new File("usersData.txt"));
         }catch (Exception e){
             System.out.println(e);
         }
@@ -22,8 +22,10 @@ public class readFile {
         try {
             while(a.hasNextLine() != equals(null)){
                 String x = a.nextLine();
-                messageBox = messageBox + " " +  x;
-                messageBox = messageBox + "\n";
+                messageBox[i] = x;
+                i++;
+               // messageBox = messageBox + " " +  x;
+                //messageBox = messageBox + "\n";
             }
         }catch (Exception e){
             System.out.println(e);
@@ -37,9 +39,8 @@ public class readFile {
             System.out.println(e);
         }
     }
-    public String getques(){
+    public String [] getUserData(){
         return messageBox;
     }
 
 }
-

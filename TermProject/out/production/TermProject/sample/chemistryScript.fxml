@@ -9,7 +9,10 @@
 <AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.chemistryScriptController">
    <children>
       <TextArea fx:id="ChemistryQuestionScript" layoutX="3.0" layoutY="4.0" prefHeight="358.0" prefWidth="759.0" />
-      <AnchorPane fx:id="answerScript" layoutX="15.0" layoutY="362.0" prefHeight="273.0" prefWidth="719.0" />
+      <AnchorPane fx:id="answerScript" layoutX="15.0" layoutY="362.0" prefHeight="273.0" prefWidth="719.0">
+         <children>
+            <Button fx:id="submit" layoutX="640.0" layoutY="222.0" mnemonicParsing="false" onAction="#submitOnAction" text="SUBMIT" />
+         </children></AnchorPane>
       <TextField fx:id="timeCounter" editable="false" layoutX="667.0" layoutY="14.0" prefHeight="25.0" prefWidth="76.0" style="-fx-border-color: blue; -fx-font: 24; -fx-opacity: 2;" text=" ">
          <font>
             <Font name="Arial Black" size="12.0" />
