@@ -19,7 +19,7 @@
                   <Font size="14.0" />
                </font>
             </Button>
-          <Button mnemonicParsing="false" onAction="#hsc" text="HSC" textFill="#10eb59">
+          <Button fx:id="hsc" mnemonicParsing="false" onAction="#hscOnAction" text="HSC" textFill="#10eb59">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>

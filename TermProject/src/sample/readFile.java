@@ -13,10 +13,14 @@ public class readFile {
     private String messageBox = "";
     public  void openFile(){
         try {
-            if(selectSubjectController.choice == 2)a = new Scanner(new File("chemistryQuestion.txt"));
-            if(selectSubjectController.choice == 1)a = new Scanner(new File("physicsQuestion.txt"));
-            if(selectSubjectController.choice == 3)a = new Scanner(new File("mathQuestion.txt"));
-            if(selectSubjectController.choice == 4)a = new Scanner(new File("hmathQuestion.txt"));
+            if(selectClassController.selectClass == 1 &&selectSubjectController.choice == 2)a = new Scanner(new File("chemistryQuestion.txt"));
+            if(selectClassController.selectClass == 1 && selectSubjectController.choice == 1)a = new Scanner(new File("physicsQuestion.txt"));
+            if(selectClassController.selectClass == 1 && selectSubjectController.choice == 3)a = new Scanner(new File("mathQuestion.txt"));
+            if(selectClassController.selectClass == 1 && selectSubjectController.choice == 4)a = new Scanner(new File("hmathQuestion.txt"));
+            if(selectClassController.selectClass == 2 &&selectSubjectController.choice == 2)a = new Scanner(new File("hscchemistryQuestion.txt"));
+            if(selectClassController.selectClass == 2 && selectSubjectController.choice == 1)a = new Scanner(new File("hscphysicsQuestion.txt"));
+            if(selectClassController.selectClass == 2 && selectSubjectController.choice == 3)a = new Scanner(new File("hscmathQuestion.txt"));
+            if(selectClassController.selectClass == 2 && selectSubjectController.choice == 4)a = new Scanner(new File("hschmathQuestion.txt"));
         }catch (Exception e){
             System.out.println(e);
         }
