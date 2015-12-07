@@ -100,23 +100,23 @@ public class chemistryScriptController implements  Runnable {
             }
             answerScript.getChildren().add(buttons[i]);
             int j = i % 4;
-            if (j == 1) {
+            if (j == 0) {
                 buttons[i].setToggleGroup(group[k]);
                 buttons[i].setText("a");
                 buttons[i].setLayoutX(0 + (i / 40) * 200);
                 buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
-            } else if (j == 2) {
+            } else if (j == 1) {
                 buttons[i].setToggleGroup(group[k]);
                 buttons[i].setText("b");
                 buttons[i].setLayoutX(40 + (i / 40) * 200);
                 buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
-            } else if (j == 3) {
+            } else if (j == 2) {
                 buttons[i].setToggleGroup(group[k]);
                 buttons[i].setText("c");
                 buttons[i].setLayoutX(80 + (i / 40) * 200);
                 buttons[i].setLayoutY((i / 4 - (i / 40) * 10) * 20);
 
-            } else if (j == 0) {
+            } else if (j == 3) {
                 buttons[i].setToggleGroup(group[k]);
                 buttons[i].setText("d");
                 buttons[i].setLayoutX(120 + (i / 40) * 200);
@@ -137,8 +137,8 @@ public class chemistryScriptController implements  Runnable {
         r.readFileFromText();
         r.closeFile();
         int array[] = r.chemistryAnswer();
-        for (int i = 0; i < 40; i++) {
-            int temp = i * 4 + array[i];
+        for (int i = 0; i <= 39; i++) {
+            int temp = i * 4 + array[i]-1;
             if (buttons[temp].isSelected()) count++;
         }
 

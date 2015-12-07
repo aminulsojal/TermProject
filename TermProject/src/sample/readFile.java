@@ -13,7 +13,10 @@ public class readFile {
     private String messageBox = "";
     public  void openFile(){
         try {
-            a = new Scanner(new File("chemistryQuestion.txt"));
+            if(selectSubjectController.choice == 2)a = new Scanner(new File("chemistryQuestion.txt"));
+            if(selectSubjectController.choice == 1)a = new Scanner(new File("physicsQuestion.txt"));
+            if(selectSubjectController.choice == 3)a = new Scanner(new File("mathQuestion.txt"));
+            if(selectSubjectController.choice == 4)a = new Scanner(new File("hmathQuestion.txt"));
         }catch (Exception e){
             System.out.println(e);
         }

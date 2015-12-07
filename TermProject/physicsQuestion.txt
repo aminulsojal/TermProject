@@ -1,0 +1,161 @@
+                   SSC
+                Physics
+                Full Marks : 40
+                Time : 40 Minutes
+
+1. The tendency or property of a body to maintain its present state for ever is called
+what?
+(a) force (b) acceleration
+(c) inertia (d)velocity
+2. Which one is the dimension of force?
+(a) MLT-2 (b) MLT-1 (c) ML-2T-2 (d) M-1LT-2
+3. Which one of the following forces is stronger?
+(a) gravitational force (b) weak nuclear force
+(c) electromagnetic force (d) strong nuclear force
+4. Which one is the unit of momentum?
+(a) kg m (b) kg ms -1 (c) kg m 2s-1 (d) kg ms -2
+5. A force of 50 N is applied on a body of mass 5 kg, its acceleration will be-
+(a) 12 ms-2 (b) 8 ms-2 (c) 13 ms-2 (d) 10 ms-2
+6. If a mass of 10 kg moves with a velocity of 10 ms-1, its momentum will be-
+(a) 10 kg ms-1 (b) 120 kg ms-1 (c) 100 kg ms-1 (d) 1 kg ms-1
+7. Which is the unit of work?
+a) Joule b) Newton
+c) Kelvin d) Watt
+8. What type of energy is stored when a body is stretched?
+a) Kinetic energy b) Potential Energy
+c) Heat Energy d) Chemical Energy
+9. A body of mass m is kept at 20 m, 30 m, 40 m and 50 m height respectively. At
+which position its potential energy is maximum?
+a) 20 m b) 30 m
+c) 40 m d) 50 m
+10. From the law of conservation of energy it is foundi)
+Energy cannot be created or destroyed. The total energy of the universe is constant
+and unchangeable.
+ii) Non renewable energy will be finished quickly, so renewable energy has to be
+used
+iii) We have to use energy effectively and reduce system loss in order to save
+energy.
+Which one is correct?
+a) i b) ii c) iii d) i. ii and iii
+11. What is the name of the apparatus used to measure the atmospheric pressure?
+(a) Thermometer (b) Barometer (c) Manometer (d) Seismometer.
+12. The amount of liquid pressure is –
+(a) proportional to its depth (b) proportional to area. (c) inversely proportional to
+density (d) equal to acceleration due to gravity.
+13. What is the name of the forth state of matter?
+(a) Gas (b) Plasma (C) Solid (d) Liquid.
+14. At the time of construction of a rail line why a small gap is kept in between two
+rails?
+a) To save iron.
+b) In summer to increase or to decrease the temperature of the rail line.
+c) To produce knocking sound when the trains run.
+d) To avoid bending of the rails for its thermal expansion.
+15. Why do we feel comfort when wind is blown by fans over our sweating body?
+a) The wind blown by the fan prevents sweat to go out of the body.
+b) Evaporation produces cooling.
+c) The air blown by the fan bears cold water vapor.
+d) The air blown by the fan enters into our body through hair follicles.
+16. With the help of latent heat ---
+i. The temperature of a body increases.
+ii. The state of a substance changes.
+iii. The internal energy of a body increases.
+Which one is correct?
+(a) i (b) ii (c) ii & iii (d) i, ii & iii
+17. What type of wave sound is?
+a) Transverse wave b) Electromagnetic wave
+c) Longitudinal wave d) Radio wave
+18. In which medium the velocity of sound is maximum?
+a) Solid b) Light
+c) Gaseous d) Plasma
+19. Why is a dead bat seen hanging from the electric line?
+i) This is because the bat lacks instant clear idea about the position and distance
+between the two electric lines.
+ii) It did not hear the echo of ultrasonic sound ahead.
+iii) It is hanging with one wire and touching the other.
+Which one of the following is correct?
+a) i and ii b) i and iii
+c) ii and iii d) i, ii and iii
+In figure S is a source of sound and AB is the surface of
+20. Where convex mirrors are used?
+a. cars b. torch light
+c. solar oven d. Radar
+21. How many types of reflection are there?
+a. 4 b. 3
+c. 2 d. 1
+22. Image produced in a plane mirror -
+i. equal to object in size
+ii. can be formed in a screen
+iii. formed at a distance equal to the distance of the object from the mirror.
+Which one of the following is correct?
+a. i and ii b. ii and iii
+c. i and ii d. i, ii and iii
+23. Where will be the image of an object when it is placed in a denser medium and
+looked from rarer medium?
+a) raised upward b) gone downward
+c) remained at the same place d) moved aside
+24. Which is the unit of power of lens?
+a) Dioptre b) Watt
+c) Horsepower d) Kilo-Watt Hour
+25. The name of the apparatus used to determine the presence of charge is –
+a) Ammeter b) Voltmeter
+c) Microscope d) Electroscope
+26. On which factor below the electrostatic force between two charges does not depend
+on?
+i) the distance between the charges
+ii) the nature of the medium in which the charges are placed
+iii) the masses of the charges
+Which one of the following is correct?
+a) i & ii b) i & iii
+c) ii & iii d) i, ii, & iii
+27. The unit of electric field intensity is
+a)N b) Nm
+c) Nm-1 d) NC-1
+28. Volt is the unit of what?
+a) electric field b) electric potential
+c) electric charge d) electric current
+29. The name of the apparatus used to determine the presence of charge is –
+a) Ammeter b) Voltmeter
+c) Microscope d) Electroscope
+30. On which factor below the electrostatic force between two charges does not depend
+on?
+i) the distance between the charges
+ii) the nature of the medium in which the charges are placed
+iii) the masses of the charges
+31.Which one of the following is correct?
+a) i & ii b) i & iii
+c) ii & iii d) i, ii, & iii
+32. The unit of electric field intensity is
+a)N b) Nm
+c) Nm-1 d) NC-1
+33. Volt is the unit of what?
+a) electric field b) electric potential
+c) electric charge d) electric current
+34. What will happen of magnetic field if electric –current flows through a solenoid
+made by insulated wire wound over a cylinder.
+a) Will be condensed and weak b) Will be condensed and strong
+c) Will be less condensed and weak d) Will be less condensed but strong
+35. In which functions, electromagnetic induction is used?
+A) Transistor (b) Motor
+(c) Amplifier (d) Transformer
+36. In which process, electromotive force is produced
+i)If any magnet is kept motionless in a wire coil
+ii) If any wire coil is rotated in a magnetic field
+iii) If any magnet is rotated around a motionless wire coil
+Which one is correct of the following?
+(a) i (b) ii
+(c) i and ii (d) ii and iii
+37. What will happen of induced electric current if the number of turns of coil is
+increased?
+a) The electric current will be reduced
+b) The electric current will be increased
+c) The magnitude of electric current will be zero
+d) The magnitude of electric current will be negative
+38. What do mean by alpha particle emitting from radioactive elements?
+(a) a hydrogen nucleus (b) a helium nucleus
+(c) a charge neutral particle (d) a negative particle
+39. What is actually beta ray emitted due to the radioactive decay?
+(a) the flow of negative electrons (b) a charge neutral particle
+(c) a positive nucleus (d) flow of positive protons
+40. What is called a silicon chip if millions of circuit is added to it?
+(a) parallel circuit (b) semiconductor transistor
+(c) integrated circuit (d) semiconductor diode

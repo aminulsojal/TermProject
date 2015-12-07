@@ -14,10 +14,10 @@
       </Text>
       <ButtonBar layoutX="66.0" layoutY="152.0" prefHeight="40.0" prefWidth="200.0">
         <buttons>
-          <Button mnemonicParsing="false" text="Physics" textFill="#3c21d3" />
+          <Button fx:id="physics" mnemonicParsing="false" onAction="#physicsOnAction" text="Physics" textFill="#3c21d3" />
             <Button mnemonicParsing="false" onAction="#chemistry" text="Chemistry" textFill="#2632d7" />
-            <Button mnemonicParsing="false" text="Math" textFill="#4421d0" />
-            <Button mnemonicParsing="false" text="H.Math" textFill="#4913c9" />
+            <Button fx:id="math" mnemonicParsing="false" onAction="#mathOnAction" text="Math" textFill="#4421d0" />
+            <Button fx:id="hmath" mnemonicParsing="false" onAction="#hmathOnAction" text="H.Math" textFill="#4913c9" />
         </buttons>
       </ButtonBar>
    </children>

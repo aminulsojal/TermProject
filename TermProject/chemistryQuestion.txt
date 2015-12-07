@@ -3,8 +3,219 @@
                                             Full Marks - 40
                                             Time : 40 Minutes
 
-1. What is the formulae of table salt? (a)NaCl (b)Na2CO3 (c)MgO (d)NaF
-2. What is the symbol of Tangsten? (a)Wn (b)W (c)P (d)T
+
+1).Atomicity of Sulphur is ______.
+a) 4
+b) 5
+c) 6
+d) 8
+2).The element showing the maximum atomicity is ________.
+a) Phosphorous
+b) Sulphur
+c) Carbon
+d) Oxygen
+3).The maximum atomicity shown by Carbon is __________.
+a) 4
+b) 6
+c) 60
+d) 180
+4).1 is the atomic for________.
+a) Helium
+b) Nitrogen
+c) Hydrogen
+d) Oxygen
+5).Vapour density of ozone is __________.
+a) 16
+b) 24
+c) 12
+d) 3
+6).Avogadro’s Law is used ____________.
+a) to deduce the atomicity of gases
+b) to deduce the molecular mass of gaseout compound
+c) to explain Gay-Lussac’s law
+d) all the above
+7).Volume of one mole of gas at S.T.P is __________.
+a) 22.4 lit
+b) 22.4 cm3
+c) 2.24 lit
+d) 2.24 cm3
+8).Volume of 16 g of oxygen at S.T.P is_________.
+a) 22.4 lit
+b) 11.2 lit
+c) 22400 cm3
+d) 2.24 lit
+9).hydrogen molecule is an example for__________.
+a) Diatomic molecule
+b) monoatornic molecule
+c) heteroatomic molecule
+d) triatoimc molecule
+10).The accurate scale which gives the relative atomic mass of an element is _______.
+a) Hydrogen scale
+b) Carbon 6C12
+c) Carbon 6C12 scale
+d) Oxygen scale
+11).Zn + 2HCl ZnCl2 + H2 the above reaction is an example of ________.
+a) Combination reaction
+b) Double Displacement reaction
+c) Displacement reaction
+d) Decomposition reaction
+12).A reddish brown coloured element ‘X’ on heating in air becomes a black coloured
+compound ‘Y’. X and Y are ______ and ________.
+a) Cu
+b) CuO / Pb
+c) PbO
+d) None of these
+13).A student tested the pH of pure water using a pH paper. It showed green colour. If a
+pH paper is used after adding lemon juice into water, what colour win he observe?
+a) Green
+b) Red
+c) Yellow
+d) Blue
+14).Chemical volcano is an example of __________.
+a) Combination reaction
+b) Decomposition reaction
+c) Redox reaction
+d) Endothermic reaction
+5).When crystals of Lead nitrate on heating strongly produces __________ gas.
+a) NO2, reddish brown
+b) NO3
+c) NH4
+d) CO3
+16).When aqueous solutions of Silver nitrate and Sodium chloride are mixed ________
+precipitate is immediately formed
+a) White
+b) Yellow
+c) Red
+d) Blue
+17).Zinc can displace Aluminium metal from aqueous solution of Aluminium sulphate as
+__________.
+a) Zinc is more reactive than Aluminium
+b) Aluminium is more reactive than Zinc
+c) Either A or B
+e) None of these
+18).To product tooth decay, we are advised to brush our teeth regularly. The nature of
+the tooth paste commonly used is ________ in nature.
+a) Basic
+b) acidic
+c) neutral
+d) strongly acidic
+19).Vinegar is present in acetic acid. Curd contains ________ acid.
+a) Lactic acid
+b) Tartaric acid
+c) Organic acid
+d) Inorganic acid
+20).pH = - log10 [H+]. The pH of a solution containing hydrogen ion concentration of
+0.001M solution is __________.
+a) 3
+b) 11
+c) 14
+d) 18
+21).Silver articles become tarnished due to the formation of_________.
+a) AgCl
+b) Ag2O
+c) Ag2S
+d) AgNO3
+22).The Chemical name of quick lime is __________.
+a) Calcium Carbonate
+b) Calcium hydroxide
+c) Calcium oxide
+d) Calcium oxalate
+23).CaCo3 + dil. 2HCl —> CaCl2 + H2O + ?
+a) H2
+b) Cl2
+c) CO2
+d) CO
+24).When Lead nitrate and Potassium iodide react, the yellow precipitate formed
+is____________.
+a) Lead iodide
+b) Potassium nitrate
+c) Metallic potassium
+d) Lead metal
+25).When Co2 is passed through slaked lime, a milky white ‘precipitate is formed, name
+it.
+a) CaO
+b) Ca(OH)2
+c) CaCO3
+d) CaSO4
+26).The chemical reaction in which two or more reactants from a single product
+is_________.
+a) Decomposition
+b) Displacement
+c) Combination
+d) Oxidation
+27).The Chemical formula of marble is________.
+a) CaO
+b) CaCO3
+c) Ca(OH)2
+d) CaCl2
+28).An example formula of marble is __________.
+a) C + O2 —> CO2
+b) 2H2 + O2 —> H2O
+c) 2Mg + O2 —> 2MgO
+d) CaCO3 —> CaO + CO2
+29).When a piece of Zinc is dipped in CuSO4 solution, the colour changes from
+_______.
+a) Green to blue
+b) Blue to green
+c) Blue to colourless
+d) Blue to brown
+30).Copper is less reactive than__________.
+a) Lead
+b) Zinc
+c) Platinum
+d) Both lead and zinc
+31).Pb + CuCl2 ? PbCl2 + Cu is an example of ___________.
+a) Combination reaction
+b) Displacement reaction
+c) Decomposition reaction
+d) Reduction reaction
+32).The change in molar concentration of any one of the reactants or products per unit
+time is called______________.
+a) Order of the reaction
+b) Result of the reaction
+c) Rate of the reaction
+d) Product of the reaction
+33).Decomposition of Ammonia into nitrogen and Hydrogen is ____________.
+a) Exothermic
+b) Endothermic
+c) Displacement
+d) combination
+34).Reduction reaction involves_____________.
+a) Addition of electrons
+b) Addition of oxygen
+c) Addition of electronegative group
+d) Removal of electrons
+35).Oxidation reaction involves_____________.
+a) Addition of electrons
+b) Addition of hydrogen
+c) Addition of electronegative group
+d) Removal of electron
+36).The reaction in which loss as well as gain of electron takes place simultaneously is
+called____________.
+a) Oxidation
+b) Addition
+c) Reduction
+d) Redox
+37).The reaction of Magnesium is faster with ____________.
+a) Water
+b) HCL
+c) Acetic acid
+d) Tartaric acid
+38).As the concentration of the reactants increases, the rate of the reaction__________.
+a) Increases
+b) decreases
+c) remains constant
+d) initially decreases and then increases
+39).Greater the surface area_______________.
+a) Slower the rate of reaction
+b) Faster the rate of reaction
+c) No change in the rate
+d) Reversal of reaction
+40).The factor which affects the rate of the reaction is __________.
+a) Nature of the reactants
+b) Temperature
+c) Surface area
+d) All the above
 
 
 
@@ -37,9 +248,3 @@
 
 
 
-
-
-
-
-
-ok

@@ -14,7 +14,10 @@ public class readAnswerForChemistryScript {
     int [] intAnswer = new int[40];
     public  void openFile(){
         try {
-            a = new Scanner(new File("chemistryAnswerScript.txt"));
+            if(selectSubjectController.choice == 2)a = new Scanner(new File("chemistryAnswerScript.txt"));
+            if(selectSubjectController.choice == 1)a = new Scanner(new File("physicsAnswerScript.txt"));
+            if(selectSubjectController.choice == 3)a = new Scanner(new File("mathAnswerScript.txt"));
+            if(selectSubjectController.choice == 4)a = new Scanner(new File("hmathAnswerScript.txt"));
         }catch (Exception e){
             System.out.println(e);
         }
