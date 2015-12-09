@@ -16,7 +16,15 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import java.io.BufferedOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import static java.nio.file.StandardOpenOption.APPEND;
+import static java.nio.file.StandardOpenOption.CREATE;
 
 /**
  * Created by User on 11/28/2015.
@@ -130,6 +138,7 @@ public class chemistryScriptController implements  Runnable {
         this.main = main;
 
     }
+
     @FXML
     public void submitOnAction(ActionEvent actionEvent) throws IOException {
         readAnswerForChemistryScript r = new readAnswerForChemistryScript();

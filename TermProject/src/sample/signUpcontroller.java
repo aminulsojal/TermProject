@@ -2,10 +2,7 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 
 import java.io.BufferedOutputStream;
 import java.io.IOException;
@@ -29,6 +26,8 @@ public class signUpcontroller {
     @FXML public PasswordField confirmPassword;
     @FXML public TextField instittionName;
     @FXML public Button signUp;
+    @FXML public RadioButton SSC;
+    @FXML public RadioButton HSC;
     private logInMain main;
 
     @FXML public void signUpOnAction(ActionEvent actionEvent) throws IOException {
@@ -53,10 +52,11 @@ public class signUpcontroller {
         }*/
 
         if(createAPassword.getText().equals(confirmPassword.getText())){
-            main.showSelectPage();
+            //main.showSelectPage();
+            main.showLogInPage();
             writeToFile();
             writeToFile1();
-
+            createUserFile();
         }
         else if(createAPassword.getText() != confirmPassword.getText()){
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -67,17 +67,17 @@ public class signUpcontroller {
             createAPassword.setText(null);
             confirmPassword.setText(null);
         }
-
-
-
-
-
     }
     public void writeToFile(){
-        String s = userName.getText()+createAPassword.getText();
+        String btn = "";
+        if(SSC.isSelected()) btn = "SSC";
+        if(HSC.isSelected()) btn = "HSC";
+        String s = userName.getText()+createAPassword.getText()+btn;
         byte data[] = s.getBytes();
         String s1 = "\n";
         byte data1[] = s1.getBytes();
+        //String s3 = "/.userData.txt";
+        //Path p = Paths.get(s3);
         Path p = Paths.get("./usersData.txt");
 
         try (OutputStream out = new BufferedOutputStream(
@@ -89,9 +89,13 @@ public class signUpcontroller {
             System.err.println(x);
         }
     }
+
     public void writeToFile1(){
-        String s = "Name : " + firstName.getText() + " " + lastNmae.getText()+ "; " + "User Name : " + userName.getText() + "; "+
-                "Password : " + createAPassword.getText() + "; " + "Institution Name : " + instittionName.getText();
+        String btn = "";
+        if(SSC.isSelected()) btn = "SSC";
+        if(HSC.isSelected()) btn = "HSC";
+        String s = "Name : " + firstName.getText() + " " + lastNmae.getText()+ "; " + "User Name : " + userName.getText() + "; "+"\n"+
+                "Password : " + createAPassword.getText() + "; " +"Class : " + btn + "; " + "Institution Name : " + instittionName.getText();
         byte data[] = s.getBytes();
         String s1 = "\n";
         byte data1[] = s1.getBytes();
@@ -107,7 +111,48 @@ public class signUpcontroller {
             System.err.println(x);
         }
     }
+
+    public void createUserFile(){
+        String btn = "";
+        if(SSC.isSelected()) btn = "SSC";
+        if(HSC.isSelected()) btn = "HSC";
+        String s = "Name : " + firstName.getText() + " " + lastNmae.getText()+ "; " + "User Name : " + userName.getText() + "; "+"\n"+
+                "Class : " + btn + "; " + "Institution Name : " + instittionName.getText();
+        byte data[] = s.getBytes();
+        String s1 ="\n" + "\n";
+        byte data1[] = s1.getBytes();
+        String s3 = "Subject Name       " + "Set Number   " + "Obtained Marks" + "\n";
+        byte data3[] = s3.getBytes();
+        String s4 = "\n";
+        byte data4[] = s4.getBytes();
+        String s2 = "./" + userName.getText()+".txt";
+
+        Path p = Paths.get(s2);
+
+        try (OutputStream out = new BufferedOutputStream(
+                Files.newOutputStream(p, CREATE, APPEND))) {
+            out.write(data, 0, data.length);
+            out.write(data1,0,data1.length);
+            out.write(data3,0,data3.length);
+            out.write(data4,0,data4.length);
+
+        } catch (IOException x) {
+            System.err.println(x);
+        }
+    }
     public void setMain(logInMain main){
         this.main = main;
+    }
+
+    public void sscOnAction(ActionEvent actionEvent) {
+
+    }
+
+    public void hscOnACtion(ActionEvent actionEvent) {
+
+    }
+
+    public void backOnAction(ActionEvent actionEvent) throws IOException {
+        main.showLogInPage();
     }
 }

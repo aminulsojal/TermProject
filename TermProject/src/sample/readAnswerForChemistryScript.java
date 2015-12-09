@@ -14,14 +14,14 @@ public class readAnswerForChemistryScript {
     int [] intAnswer = new int[40];
     public  void openFile(){
         try {
-            if(selectClassController.selectClass == 1 &&selectSubjectController.choice == 2)a = new Scanner(new File("chemistryAnswerScript.txt"));
-            if(selectClassController.selectClass == 1 && selectSubjectController.choice == 1)a = new Scanner(new File("physicsAnswerScript.txt"));
-            if(selectClassController.selectClass == 1 && selectSubjectController.choice == 3)a = new Scanner(new File("mathAnswerScript.txt"));
-            if(selectClassController.selectClass == 1 && selectSubjectController.choice == 4)a = new Scanner(new File("hmathAnswerScript.txt"));
-            if(selectClassController.selectClass == 2 &&selectSubjectController.choice == 2)a = new Scanner(new File("hscchemistryAnswerScript.txt"));
-            if(selectClassController.selectClass == 2 && selectSubjectController.choice == 1)a = new Scanner(new File("hscphysicsAnswerScript.txt"));
-            if(selectClassController.selectClass == 2 && selectSubjectController.choice == 3)a = new Scanner(new File("hscmathAnswerScript.txt"));
-            if(selectClassController.selectClass == 2 && selectSubjectController.choice == 4)a = new Scanner(new File("hschmathAnswerScript.txt"));
+            if(loginController.selectClass == 1 &&selectSubjectController.choice == 2)a = new Scanner(new File("chemistryAnswerScript.txt"));
+            if(loginController.selectClass == 1 && selectSubjectController.choice == 1)a = new Scanner(new File("physicsAnswerScript.txt"));
+            if(loginController.selectClass == 1 && selectSubjectController.choice == 3)a = new Scanner(new File("mathAnswerScript.txt"));
+            if(loginController.selectClass == 1 && selectSubjectController.choice == 4)a = new Scanner(new File("hamthAnswerScript.txt"));
+            if(loginController.selectClass == 2 &&selectSubjectController.choice == 2)a = new Scanner(new File("hscchemistryAnswerScript.txt"));
+            if(loginController.selectClass == 2 && selectSubjectController.choice == 1)a = new Scanner(new File("hscphysicsAnswerScript.txt"));
+            if(loginController.selectClass == 2 && selectSubjectController.choice == 3)a = new Scanner(new File("hscmathAnswerScript.txt"));
+            if(loginController.selectClass == 2 && selectSubjectController.choice == 4)a = new Scanner(new File("hschmathAnswerScript.txt"));
         }catch (Exception e){
             System.out.println(e);
         }

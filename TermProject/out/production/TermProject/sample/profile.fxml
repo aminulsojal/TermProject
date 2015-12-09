@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.profileController">
+   <children>
+      <TextArea fx:id="profileDetails" layoutX="38.0" layoutY="106.0" prefHeight="288.0" prefWidth="527.0" />
+      <TextArea fx:id="userName" layoutX="201.0" layoutY="31.0" prefHeight="14.0" prefWidth="133.0" />
+      <Button layoutX="383.0" layoutY="412.0" mnemonicParsing="false" onAction="#gotoMainMenuOnAction" prefHeight="25.0" prefWidth="117.0" text="Go to Main Menu" textFill="#630eeb" />
+   </children>
+</AnchorPane>

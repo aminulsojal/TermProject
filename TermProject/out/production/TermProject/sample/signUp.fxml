@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="587.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUpcontroller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="587.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.signUpcontroller">
    <children>
       <Label layoutX="46.0" layoutY="109.0" prefHeight="28.0" prefWidth="95.0" text="First Name" />
       <TextField fx:id="firstName" layoutX="120.0" layoutY="111.0" />
@@ -16,8 +17,12 @@
       <Label layoutX="46.0" layoutY="325.0" prefHeight="28.0" prefWidth="103.0" text="Confirm Password" />
       <Label layoutX="46.0" layoutY="415.0" prefHeight="28.0" prefWidth="103.0" text="Institution Name" />
       <TextField fx:id="instittionName" layoutX="121.0" layoutY="443.0" />
-      <Button fx:id="signUp" layoutX="454.0" layoutY="498.0" mnemonicParsing="false" onAction="#signUpOnAction" style="-fx-background-color: white;" text="SIGN IN" />
+      <Button fx:id="signUp" layoutX="455.0" layoutY="553.0" mnemonicParsing="false" onAction="#signUpOnAction" style="-fx-background-color: white;" text="SIGN UP" />
       <PasswordField fx:id="createAPassword" layoutX="120.0" layoutY="280.0" />
       <PasswordField fx:id="confirmPassword" layoutX="121.0" layoutY="363.0" />
+      <Text layoutX="46.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Class" wrappingWidth="95.00000521540642" />
+      <RadioButton fx:id="SSC" layoutX="98.0" layoutY="517.0" mnemonicParsing="false" onAction="#sscOnAction" prefHeight="17.0" prefWidth="44.0" text="SSC" />
+      <RadioButton fx:id="HSC" layoutX="152.0" layoutY="517.0" mnemonicParsing="false" onAction="#hscOnACtion" prefHeight="17.0" prefWidth="54.0" text="HSC" />
+      <Button fx:id="back" layoutX="20.0" layoutY="566.0" mnemonicParsing="false" onAction="#backOnAction" text="BACK" />
    </children>
 </AnchorPane>

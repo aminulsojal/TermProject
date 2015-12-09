@@ -40,4 +40,12 @@ public class selectSubjectController {
         choice = 4;
         main.showChemistryQues();
     }
+
+    public void profileOnAction(ActionEvent actionEvent) throws IOException {
+        main.profileDetails();
+    }
+
+    public void logoutOnAction(ActionEvent actionEvent) throws IOException {
+        main.showLogInPage();
+    }
 }

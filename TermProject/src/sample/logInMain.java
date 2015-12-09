@@ -44,16 +44,16 @@ public class logInMain extends Application {
         stage.setTitle("Sign Up");
         stage.show();
     }
-    public void showSelectPage() throws IOException {
+    public void profileDetails() throws IOException {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("selectClass.fxml"));
+        loader.setLocation(getClass().getResource("profile.fxml"));
         Parent root = loader.load();
-        selectClassController loginController1 = loader.getController();
+        profileController loginController1 = loader.getController();
         loginController1.setMain(this);
         Scene scene = new Scene(root);
         //scene.getStylesheets().add(logInMain.class.getResource("color.css").toExternalForm());
         stage.setScene(scene);
-        stage.setTitle("Select");
+        stage.setTitle(loginController.s1);
         stage.show();
     }
     public void showSubjectPage() throws IOException {

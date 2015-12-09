@@ -20,5 +20,7 @@
             <Button fx:id="hmath" mnemonicParsing="false" onAction="#hmathOnAction" text="H.Math" textFill="#4913c9" />
         </buttons>
       </ButtonBar>
+      <Button fx:id="profile" layoutX="354.0" layoutY="14.0" mnemonicParsing="false" onAction="#profileOnAction" prefHeight="25.0" prefWidth="95.0" text="Your Profile" textFill="#3f11e4" />
+      <Button layoutX="360.0" layoutY="304.0" mnemonicParsing="false" onAction="#logoutOnAction" prefHeight="25.0" prefWidth="68.0" text="LOG OUT" textFill="#780ce4" />
    </children>
 </AnchorPane>

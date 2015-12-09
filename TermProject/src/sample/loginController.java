@@ -17,10 +17,12 @@ public class loginController {
    @FXML  public Button signUp;
     private logInMain main;
     @FXML
-    TextField textField;
+     TextField textField;
     @FXML
     PasswordField password;
     int k = 0;
+    public static String s1 = "";
+    public static int selectClass ;
 
 
 
@@ -31,15 +33,28 @@ public class loginController {
         r.readFileFromText();
         r.closeFile();
         String[] s = r.getUserData();
+        s1 = textField.getText();
        // String validUserName = "admin";
         //String validPassword = "123";
-        String userName = textField.getText()+password.getText();
+        String userName = textField.getText()+password.getText()+"SSC";
+        String userName1 = textField.getText()+password.getText()+"HSC";
         for(int i = 0; i < s.length;i++) {
             if (userName.equals(s[i])) {
-                // successful login
                 try {
-                    main.showSelectPage();
+                    //main.showSelectPage();
+                    main.showSubjectPage();
                     k = 1;
+                    selectClass = 1;
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+            if (userName1.equals(s[i])) {
+                try {
+                    //main.showSelectPage();
+                    main.showSubjectPage();
+                    k = 1;
+                    selectClass = 2;
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -56,6 +71,9 @@ public class loginController {
     }
     public void setMain (logInMain main){
         this.main = main;
+    }
+    public String getText(){
+        return textField.getText();
     }
 
     @FXML
